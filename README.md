@@ -14,8 +14,6 @@ Score & Moves Tracking: Real-time updates for performance.
 
 Win Detection: Celebratory message with blurred background on winning.
 
-Responsive Design: Works well on desktop and mobile screens.
-
 New Game & Restart: Start a new game anytime with a single click.
 
 ## Technology Stack
@@ -104,9 +102,10 @@ npm run dev
 yarn dev
 ```
 ```
-## Open http://localhost:5173
- to view the game in your browser.
+ Open http://localhost:5173
 ```
+ to view the game in your browser.
+ 
 ## Screenshots
 
 ### 1. Game Starting
@@ -119,6 +118,66 @@ yarn dev
 
 ### 3. Celebratory message with blurred background
 <img width="1918" height="871" alt="image" src="https://github.com/user-attachments/assets/5fe1e077-c95d-4f96-89bb-7abd916b195e" />
+
+
+## Learning Outcomes
+
+By building this Memory Card Game, I gained hands-on experience with core and intermediate React concepts, including:
+
+### 1. React Component Architecture
+
+Breaking the UI into reusable components (Card, GameHeader, WinMessage)
+
+Passing data and event handlers using props
+
+### 2. State Management with Hooks
+
+Managing multiple states using useState
+
+Controlling UI behavior based on state changes
+
+Understanding how state updates trigger re-renders
+
+### 3. Side Effects Handling
+
+Using useEffect for game initialization and lifecycle-based logic
+
+Handling timed actions like card preview and flip-back logic
+
+### 4. Custom Hooks
+
+Creating and using a reusable custom hook (useGameLogic)
+
+Separating business logic from UI components for cleaner code
+
+### 5. Game Logic Implementation
+
+Card shuffling using an algorithm
+
+Matching logic for flipped cards
+
+Locking interactions during animations and transitions
+
+Detecting game completion and triggering win state
+
+### 6. User Interaction Handling
+
+Handling click events efficiently
+
+Preventing invalid actions (double clicks, flipping matched cards)
+
+Managing preview phase and game start flow
+
+### 7. Conditional Rendering
+
+Showing/hiding components like win message and buttons
+
+Rendering UI based on game state (started, preview, completed)
+
+## 8. Overall Outcome
+
+This project Increase my understanding of React fundamentals, improved my problem-solving skills, and helped me build confidence in creating interactive, state-driven applications using modern React practices.
+
 
 
 
