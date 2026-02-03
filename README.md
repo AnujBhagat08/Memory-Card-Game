@@ -1,8 +1,8 @@
-🎮 Memory Card Game (React Basics & State Management)
+# 🎮 Memory Card Game (React Basics & State Management)
 
 A fun and interactive Memory Card Game built with React to practice components, props, state management, hooks, and game logic. Users can test their memory by finding matching pairs of cards. This project demonstrates how to manage state, implement custom hooks, handle user interactions, and structure a React project professionally.
 
-🔥 Features
+## Features
 
 Interactive Gameplay: Flip cards and match pairs to score points.
 
@@ -18,7 +18,7 @@ Responsive Design: Works well on desktop and mobile screens.
 
 New Game & Restart: Start a new game anytime with a single click.
 
-🛠 Technology Stack
+## Technology Stack
 
 Frontend: React (Vite + JavaScript)
 
@@ -28,7 +28,8 @@ State Management: React Hooks (useState, useEffect)
 
 Custom Hook: useGameLogic for game state & logic separation
 
-🏗 Folder Structure
+## Folder Structure
+``` bash
 memory-card-game/
 │
 ├── src/
@@ -46,7 +47,9 @@ memory-card-game/
 ├── package.json
 └── README.md
 
-🎮 Gameplay Instructions
+```
+
+## Gameplay Instructions
 
 Click Start Game to reveal all cards for a few seconds (preview phase).
 
@@ -62,44 +65,64 @@ When all pairs are matched, a Win Message appears.
 
 Use New Game button to reset and play with a new random card set.
 
-🚀 Getting Started
+## Getting Started
 Prerequisites
 
 Node.js >= 16.x
 
 npm or yarn
 
-Installation
-# Clone the repository
+## Installation
+### Clone the repository
+``` bash
 git clone https://github.com/<your-username>/memory-card-game.git
+```
 
-# Navigate into the folder
+### Navigate into the folder
+``` bash
 cd memory-card-game
+```
 
-# Install dependencies
+### Install dependencies
+``` bash
 npm install
-# or
+```
+
+### or
+``` bash
 yarn install
+```
 
 Running the App
-# Start the development server
+### Start the development server
+```bash
 npm run dev
-# or
+```
+
+### or
+```bash
 yarn dev
-
-
-Open http://localhost:5173
+```
+```
+## Open http://localhost:5173
  to view the game in your browser.
+```
+## Screenshots
 
-🌈 Screenshots
+### 1. Game Starting
+<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/f193ab54-36c6-48f7-90b7-42635536d221" />
 
 
-Cards grid during gameplay
+### 2. Cards grid during gameplay
+<img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/ede6085e-b687-4203-96d4-5f18c0a0c651" />
 
 
-Celebratory message with blurred background
+### 3. Celebratory message with blurred background
+<img width="1918" height="871" alt="image" src="https://github.com/user-attachments/assets/5fe1e077-c95d-4f96-89bb-7abd916b195e" />
 
-⚡ Future Improvements
+
+
+## Future Improvements
 
 Add timer and leaderboard to track best scores.
 
@@ -109,12 +132,8 @@ Add sound effects for flips and matches.
 
 Add animation effects for matched cards.
 
-📜 License
 
-This project is licensed under the MIT License - see the LICENSE
- file for details.
-
-🤝 Contribution
+## Contribution
 
 Contributions, issues, and feature requests are welcome!
 
@@ -128,7 +147,7 @@ Push to the branch (git push origin feature/new-feature)
 
 Open a Pull Request
 
-📧 Contact
+## Contact
 
 Your Name :  ANUJ BHAGAT 
 
